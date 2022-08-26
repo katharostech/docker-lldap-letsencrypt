@@ -29,6 +29,7 @@ jobs:
       packages: write
   
     steps:
+      - uses: actions/checkout@v3
       - name: Build & Publish
         uses: elgohr/Publish-Docker-Github-Action@v4
         with:
