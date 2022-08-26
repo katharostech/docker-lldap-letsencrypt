@@ -33,7 +33,7 @@ jobs:
       - name: Build & Publish
         uses: elgohr/Publish-Docker-Github-Action@v4
         with:
-          name: owner/repository/image
+          name: katharostech/docker-lldap-letsencrypt/lldap
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
