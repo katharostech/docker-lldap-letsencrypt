@@ -1,2 +1,3 @@
-# docker-lldap-letsencrypt
-Docker image for running lldap with trusted HTTPS certificates from LetEncrypt™
+# simple-tls-proxy
+
+Tiny utility for running SSL Termination With ACME On a TCP Stream
